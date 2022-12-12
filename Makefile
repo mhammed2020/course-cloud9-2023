@@ -6,10 +6,10 @@ test:
 	#python -m pytest -vv --cov=myrepolib tests/*.py
 	#python -m pytest --nbval notebook.ipynb
 	
-	python -m pytest test_samble.py
+	# python -m pytest test_samble.py
 
 
 lint:
-	pylint --disable=R,C hello.py
+	pylint --disable=R,C hello.py 
 
 all: install lint test
