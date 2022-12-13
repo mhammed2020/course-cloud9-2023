@@ -1,9 +1,12 @@
-# from unittest import TestCase
+
+from unittest import TestCase
 
 def test_simplest():
-    assert True 
+    assert True
 
 class TestSimple:
     
-    def test_simple(self):
-        assert True
+    assert "True Test" == "True Test", "Should Be <<True Test>> as text"
+
+ 
+
