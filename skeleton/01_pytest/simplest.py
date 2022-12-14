@@ -6,7 +6,7 @@ def test_simplest():
 
 class TestSimple:
     
-    assert "True Test" == "True Test", "Should Be <<True Test>> as text"
+    assert "True Test" == " True Test", "Should Be <<True Test>> as text"
 
  
 
