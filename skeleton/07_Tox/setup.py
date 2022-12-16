@@ -15,7 +15,7 @@ setup(
     author = 'Mhammed Jeddou',
     author_email = 'contact@xdev.ma',
     version = metadata['version'],
-    url = 'http://github.com/alfredodeza/remoto',
+    url = 'https://github.com/mhammed2020/course-cloud9-2023/tree/main/skeleton/07_Tox',
     license = "MIT",
     zip_safe = False,
     keywords = "remote, commands, unix, ssh, socket, execute, terminal",
@@ -30,8 +30,8 @@ setup(
         'Topic :: Utilities',
         'Operating System :: MacOS :: MacOS X',
         'Operating System :: POSIX',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.3',
     ]
 )
